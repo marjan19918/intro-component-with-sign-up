@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+<link rel="stylesheet" href="style.css">
+<script src="./main.js" defer></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<!-- 
+  Learn to code by watching others
+
+  See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+  but understanding how developers think is invaluable. 
+
+  Try it free 7 days then $20/mo. thereafter
+
+  First Name 
+  Last Name 
+  Email Address
+  Password
+
+  Claim your free trial 
+
+  By clicking the button, you are agreeing to our Terms and Services
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer> -->
+  
+  <div class="main">
+    <div class="left">
+      <h1>Learn to code by watching others
+        </h1>
+        <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+          but understanding how developers think is invaluable.</p>
+    </div>
+    <div class="right">
+      <div class="topper"><h3>Try it free 7 days </h3><p> then $20/mo. thereafter</p> </div>
+      <div class="signin">
+        <form action="" name="myform" id="myform" >
+        <div class="name sign">
+          <input type="text" name="Name" id="name"  placeholder="First Name" class="" >
+          <p class="error" id="nameError"></p>
+        </div>
+        <div class="lastname sign ">
+          <input type="text" name="LastName" id="lastname" placeholder="Last Name">
+          <p class="error" id="lastnameError"></p>
+        </div>
+        <div class="email sign ">
+          <input type="text" name="Email" id="email" placeholder="Email Address">
+          <p class="error" id="emailError"></p>
+        </div>
+        <div class="password sign">
+          <input type="password" name="Password" id="password" placeholder="Password">
+          <p class="error" id="passwordError" ></p>
+        </div>
+        <div class="buttun sign">
+          <button type="submit"  >Claim your free trial </button>
+          
+          <p class="submitp" >By clicking the button, you are agreeing to our<span class="red">Terms and Services</span> </p >
+          
+        </div>
+      </form>
+        
+      </div>
+    </div>
+  </div>
+</body>
+</html>
